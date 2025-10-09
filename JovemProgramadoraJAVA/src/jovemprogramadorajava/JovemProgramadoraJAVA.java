@@ -1,20 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package jovemprogramadorajava;
 
-/**
- *
- * @author Aluno
- */
 public class JovemProgramadoraJAVA {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+       
+       String nome = "Sara";
+            String sobrenome = "Goncalves";  
+        int idade = 17, idadeVelho;
+        idadeVelho = idade + 29;
+        double altura = 1.75;
+        boolean temCNH = false;
+        char sexo = 'F';
+        
+    System.out.println(" Voce tera " + idadeVelho + " anos ");
+}   
 }
