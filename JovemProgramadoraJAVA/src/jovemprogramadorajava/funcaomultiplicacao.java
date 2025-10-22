@@ -18,5 +18,14 @@ public class funcaomultiplicacao {
         
         double resultado = multiplicar(numero1, numero2);
         System.out.println("O resultado da multiplicacao e:" + resultado);
+        encerraSistema();
+    }
+    public static int multiplicaDoisNumeros(int num1, int num2){
+        
+    return num1* num2;
+    }
+    public static void encerraSistema(){
+        System.err.println("SEU SISTEMA FOI ENCERRADO");
+        System.exit(0);
     }
 }
