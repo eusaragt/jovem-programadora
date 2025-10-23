@@ -20,7 +20,7 @@ public class arraysmedia {
         }
         
         double media = soma / notas.length;
-        ss
+       
         System.out.println("\nSoma das notas: " + soma);
         System.out.println("Media das notas: " + media);
         
